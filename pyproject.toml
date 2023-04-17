@@ -18,7 +18,6 @@ dependencies = [
   'fastapi >= 0.85.1',
   'pandas >= 1.3',
   'posthog >= 2.4.0',
-  'sentence-transformers >= 2.2.2',
 ]
 
 [project.optional-dependencies]
@@ -31,6 +30,7 @@ server = [
   'fastapi >= 0.85.1',
   'uvicorn[standard] >= 0.18.3',
   'numpy >= 1.21.6',
+  'sentence-transformers >= 2.2.2',
 ]
 
 [tool.black]
